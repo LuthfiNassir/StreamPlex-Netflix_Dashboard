@@ -14,14 +14,15 @@ Explore and analyze trends in Netflix content consumption.
 
 ## How to Use:
 - Download the Dataset: Obtain the provided CSV file containing Netflix content data.
+- Download the R Script: Obtain the provided R script file from the repository.
+- Run the Script: Execute the R script in your preferred R environment to launch the StreamPlex dashboard.
 - Upload Data: Load the downloaded CSV file into the dashboard.
 - Exploration: Interact with the dashboard to delve into various aspects of Netflix content trends.
 - Customization: Adjust filters and parameters to tailor the dashboard to your analysis needs.
 - Export: Export visualizations and insights for further exploration or reporting.
   
-
 > [!NOTE]
-> Download the provided CSV file containing Netflix content data from the repository.
+> Download the provided CSV file containing Netflix content data from the repository.<br>
 > Launch the dashboard and upload the downloaded CSV file to explore Netflix content insights.
 
 ## Contributing:

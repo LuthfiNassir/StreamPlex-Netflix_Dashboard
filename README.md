@@ -24,7 +24,7 @@ Explore and analyze trends in Netflix content consumption.
   
 > [!NOTE]
 > Download the provided CSV file containing Netflix content data from the repository.<br>
-> Launch the dashboard and upload the downloaded CSV file to explore Netflix content insights.
+> Launch the dashboard and upload the downloaded CSV file to explore StreamPlex.
 
 ## Contributing:
 Contributions to the StreamPlex project are encouraged! Whether it's enhancing existing features, adding new functionalities, or fixing bugs, feel free to contribute by opening an issue or submitting a pull request. &#x1F917;

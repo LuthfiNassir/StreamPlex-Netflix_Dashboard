@@ -1,7 +1,7 @@
 # StreamPlex-Netflix_Dashboard
 Explore and analyze trends in Netflix content consumption.
 
-## Dashboard
+![Dashboard](https://github.com/LuthfiNassir/StreamPlex-Netflix_Dashboard/blob/main/Dashboard.png)
 
 ## Key Features:
 - `Genre Analysis`: Explore the top 10 genres watched on Netflix and their popularity.<br>
@@ -28,4 +28,4 @@ Explore and analyze trends in Netflix content consumption.
 ## Contributing:
 Contributions to the Netflix content insights project are encouraged! Whether it's enhancing existing features, adding new functionalities, or fixing bugs, feel free to contribute by opening an issue or submitting a pull request. &#x1F917;
 
-Original Dataset:
+Original Dataset: [Dataset](https://www.kaggle.com/datasets/rahulvyasm/netflix-movies-and-tv-shows)

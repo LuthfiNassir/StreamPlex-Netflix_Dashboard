@@ -1,4 +1,4 @@
-# StreamPlex-Netflix_Dashboard
+# StreamPlex: Netflix Dashboard
 Explore and analyze trends in Netflix content consumption.
 
 ![Dashboard](https://github.com/LuthfiNassir/StreamPlex-Netflix_Dashboard/blob/main/Dashboard.png)
@@ -14,7 +14,8 @@ Explore and analyze trends in Netflix content consumption.
 
 ## How to Use:
 - Download the Dataset: Obtain the provided CSV file containing Netflix content data.
-- Download the R Script: Obtain the provided R script file from the repository.
+- Download the R Script: Obtain the provided R Markdown file from the repository.
+- Download the CSS file: Obtaini the provided CSS file to get the web design.
 - Run the Script: Execute the R script in your preferred R environment to launch the StreamPlex dashboard.
 - Upload Data: Load the downloaded CSV file into the dashboard.
 - Exploration: Interact with the dashboard to delve into various aspects of Netflix content trends.
@@ -26,6 +27,6 @@ Explore and analyze trends in Netflix content consumption.
 > Launch the dashboard and upload the downloaded CSV file to explore Netflix content insights.
 
 ## Contributing:
-Contributions to the Netflix content insights project are encouraged! Whether it's enhancing existing features, adding new functionalities, or fixing bugs, feel free to contribute by opening an issue or submitting a pull request. &#x1F917;
+Contributions to the StreamPlex project are encouraged! Whether it's enhancing existing features, adding new functionalities, or fixing bugs, feel free to contribute by opening an issue or submitting a pull request. &#x1F917;
 
 Original Dataset: [Dataset](https://www.kaggle.com/datasets/rahulvyasm/netflix-movies-and-tv-shows)

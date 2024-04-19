@@ -1,0 +1,149 @@
+---
+title: "StreamPlex: Netflix's Content Expedition"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    theme: darkly
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(highcharter)
+library(htmltools)
+library(gt)
+library(dplyr)
+library(readr)
+library(viridis)
+library(lubridate)
+```
+
+```{r}
+df <- read_csv("netflix_titles.csv",show_col_types = FALSE)
+```
+
+
+Column {data-width=400}
+-----------------------------------------------------------------------
+
+### Top 10 Type of Genres Watched
+
+```{r}
+#colors
+custom_colors <- viridis::plasma(10)
+
+#genre
+df%>%
+  group_by(listed_in)%>%
+  summarise(count=n())%>%
+  filter(count>260)%>%
+  filter(count>1)%>%
+  hchart('bar',hcaes(x=listed_in, y=count, color = custom_colors))
+
+```
+
+
+
+### Top 10 Countries with Netflix Content
+```{r}
+#colors
+custom_colors <- viridis::plasma(12)
+
+#countryWise
+df %>%
+  group_by(country) %>%
+  summarise(count = n()) %>%
+  filter(count >111) %>%
+  hchart('column', hcaes(x = country, y = count, color = custom_colors)) %>%
+  hc_xAxis(min = 1, max = 10)
+
+```
+
+Column {data-width=300}
+-----------------------------------------------------------------------
+
+
+### Evolution of Netflix Content Over Years
+  
+```{r}
+# colors
+custom_colors <- viridis::plasma(n=23)
+
+#age group
+df %>%
+  group_by(release_year) %>%
+  filter(release_year>=2000)%>%
+  summarise(count= n()) %>%
+  hchart('line', hcaes(x=release_year , y=count, color = custom_colors))
+```
+
+### Audience Age Suitability of Netflix Content
+```{r}
+#colors
+custom_colors <- viridis::plasma(11)
+
+#countryWise
+df %>%
+  group_by(rating) %>%
+  summarise(count = n()) %>%
+  filter(count > 10) %>%
+  hchart('bar', hcaes(x = rating, y = count, color = custom_colors)) %>%
+  hc_yAxis(min=1,max=3000)
+```
+
+Column {data-width=300}
+-----------------------------------------------------------------------
+
+### Composition of Netflix Content
+
+```{r}
+# colors
+custom_colors <- viridis::viridis(n=2)
+
+#Transaction
+df %>%
+  group_by(type) %>%
+  summarise(count = n()) %>%
+  hchart('pie', hcaes(x=type, y=count, color = custom_colors)) %>%
+  hc_tooltip(pointFormat='<b> Proportion: </b> {point.percentage:,.2f}%')
+  
+```
+
+### Top Movies Durations on Netflix
+```{r}
+# colors
+custom_colors <- viridis::plasma(n=15)
+
+#Transaction
+df %>%
+  filter(type == "Movie") %>%
+  group_by(duration) %>%
+  summarise(count = n()) %>%
+  filter(count > 110) %>%
+  hchart('pie', hcaes(x = duration, y = count, color = custom_colors)) %>%
+  hc_tooltip(pointFormat = '<b> Proportion: </b> {point.percentage:,.2f}%')
+```
+
+### Top TV Show Durations on Netflix
+```{r}
+# colors
+custom_colors <- viridis::plasma(n=6)
+
+#Transaction
+df %>%
+  filter(type == "TV Show") %>%
+  group_by(duration) %>%
+  summarise(count = n()) %>%
+  filter(count > 25) %>%
+  hchart('pie', hcaes(x = duration, y = count, color = custom_colors)) %>%
+  hc_tooltip(pointFormat = '<b> Proportion: </b> {point.percentage:,.2f}%')
+```
+
+
+
+
+
+
+
+

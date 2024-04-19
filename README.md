@@ -20,9 +20,9 @@ Explore and analyze trends in Netflix content consumption.
 - Export: Export visualizations and insights for further exploration or reporting.
   
 
-[!NOTE]
-Download the provided CSV file containing Netflix content data from the repository.
-Launch the dashboard and upload the downloaded CSV file to explore Netflix content insights.
+> [!NOTE]
+> Download the provided CSV file containing Netflix content data from the repository.
+> Launch the dashboard and upload the downloaded CSV file to explore Netflix content insights.
 
 ## Contributing:
 Contributions to the Netflix content insights project are encouraged! Whether it's enhancing existing features, adding new functionalities, or fixing bugs, feel free to contribute by opening an issue or submitting a pull request.

@@ -4,13 +4,13 @@ Explore and analyze trends in Netflix content consumption.
 ## Dashboard
 
 ## Key Features:
-`Genre Analysis`: Explore the top 10 genres watched on Netflix and their popularity.<br>
-`Content Evolution`: Track the growth of Netflix content over the years and identify peak periods.<br>
-`Content Composition`: Visualize the proportion of TV shows and movies in Netflix's library.<br>
-`Top Movie Durations`: Analyze the distribution of movie durations available on Netflix.<br>
-`Top TV Show Durations`: Explore the number of seasons for the most-watched TV shows.<br>
-`Geographic Distribution`: Discover the top 10 countries contributing to Netflix content.<br>
-`Audience Age Suitability`: Understand the suitability of Netflix content for different age groups.<br>
+- `Genre Analysis`: Explore the top 10 genres watched on Netflix and their popularity.<br>
+- `Content Evolution`: Track the growth of Netflix content over the years and identify peak periods.<br>
+- `Content Composition`: Visualize the proportion of TV shows and movies in Netflix's library.<br>
+- `Top Movie Durations`: Analyze the distribution of movie durations available on Netflix.<br>
+- `Top TV Show Durations`: Explore the number of seasons for the most-watched TV shows.<br>
+- `Geographic Distribution`: Discover the top 10 countries contributing to Netflix content.<br>
+- `Audience Age Suitability`: Understand the suitability of Netflix content for different age groups.<br>
 
 ## How to Use:
 - Download the Dataset: Obtain the provided CSV file containing Netflix content data.

@@ -18,6 +18,10 @@ Explore and analyze trends in Netflix content consumption.
 - Exploration: Interact with the dashboard to delve into various aspects of Netflix content trends.
 - Customization: Adjust filters and parameters to tailor the dashboard to your analysis needs.
 - Export: Export visualizations and insights for further exploration or reporting.
+- 
+[!NOTE]
+> - Download the provided Excel file containing metaverse financial transaction data from the repository.
+> - Launch the dashboard and upload the downloaded Excel file to start exploring the data visualizations and insights.
 
 [!NOTE]
 - Download the provided CSV file containing Netflix content data from the repository.

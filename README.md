@@ -26,6 +26,6 @@ Explore and analyze trends in Netflix content consumption.
 > Launch the dashboard and upload the downloaded CSV file to explore Netflix content insights.
 
 ## Contributing:
-Contributions to the Netflix content insights project are encouraged! Whether it's enhancing existing features, adding new functionalities, or fixing bugs, feel free to contribute by opening an issue or submitting a pull request.
+Contributions to the Netflix content insights project are encouraged! Whether it's enhancing existing features, adding new functionalities, or fixing bugs, feel free to contribute by opening an issue or submitting a pull request. &#x1F917;
 
 Original Dataset:

@@ -3,7 +3,7 @@ Explore and analyze trends in Netflix content consumption.
 
 Click to see the Dashboard: [StreamPlex](https://rpubs.com/lu_nas/StreamPlex)
 
-![Dashboard](https://github.com/LuthfiNassir/StreamPlex-Netflix_Dashboard/blob/main/Dashboard.png)
+![Dashboard]()
 
 ## Key Features:
 - `Genre Analysis`: Explore the top 10 genres watched on Netflix and their popularity.<br>

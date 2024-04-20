@@ -1,9 +1,6 @@
-/* theme-darkly.css */
-
-/* Set dark background color for the entire dashboard */
 body {
     background-color: #212121;
-    color: #003366; /* Set default text color to white */
+    color: #003366; 
     text-align: center;
     font-weight: bold;
 }
@@ -41,13 +38,14 @@ body {
 .content-wrapper p, .content-wrapper h1, .content-wrapper h2, .content-wrapper h3, .content-wrapper h4, .content-wrapper h5, .content-wrapper h6 {
     color: #ffffff;
 }
+/* for each graph tabs */
 .chart-title {
-    background-color: #CCCCCC; /* Dark purple background */
-    color: #212121 ; /* Cyan text color */
+    background-color: #CCCCCC; 
+    color: #212121 ; 
     font-weight: bold;
     text-align: center;
-    padding: 5px; /* Adjust padding as needed */
-    margin-bottom: 0px; /* Adjust margin as needed */
+    padding: 5px; 
+    margin-bottom: 0px;
 }
 .chart-wrapper .chart-stage {
     overflow: hidden;
@@ -55,4 +53,3 @@ body {
     position: relative;
     background-color: #212121;
 }
-/* Additional custom styles can be added as needed */

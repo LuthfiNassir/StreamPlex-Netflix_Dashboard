@@ -95,7 +95,7 @@ df %>%
 Column {data-width=300}
 -----------------------------------------------------------------------
 
-### Composition of Netflix Content
+### {.no-padding}
 
 ```{r}
 # colors
@@ -106,11 +106,13 @@ df %>%
   group_by(type) %>%
   summarise(count = n()) %>%
   hchart('pie', hcaes(x=type, y=count, color = custom_colors)) %>%
-  hc_tooltip(pointFormat='<b> Proportion: </b> {point.percentage:,.2f}%')
+  hc_tooltip(pointFormat='<b> Proportion: </b> {point.percentage:,.2f}%')%>%
+  hc_title(text='Composition of Netflix Content',
+           style=list(color = 'white'))
   
 ```
 
-### Top Movies Durations on Netflix
+### {.no-padding}
 ```{r}
 # colors
 custom_colors <- viridis::plasma(n=15)
@@ -122,10 +124,12 @@ df %>%
   summarise(count = n()) %>%
   filter(count > 110) %>%
   hchart('pie', hcaes(x = duration, y = count, color = custom_colors)) %>%
-  hc_tooltip(pointFormat = '<b> Proportion: </b> {point.percentage:,.2f}%')
+  hc_tooltip(pointFormat = '<b> Proportion: </b> {point.percentage:,.2f}%')%>%
+  hc_title(text='Top Movies Durations on Netflix',
+           style=list(color = 'white'))
 ```
 
-### Top TV Show Durations on Netflix
+### {.no-padding}
 ```{r}
 # colors
 custom_colors <- viridis::plasma(n=6)
@@ -137,13 +141,7 @@ df %>%
   summarise(count = n()) %>%
   filter(count > 25) %>%
   hchart('pie', hcaes(x = duration, y = count, color = custom_colors)) %>%
-  hc_tooltip(pointFormat = '<b> Proportion: </b> {point.percentage:,.2f}%')
+  hc_tooltip(pointFormat = '<b> Proportion: </b> {point.percentage:,.2f}%')%>%
+  hc_title(text='Top TV Show Durations on Netflix',
+           style=list(color = 'white'))
 ```
-
-
-
-
-
-
-
-

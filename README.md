@@ -1,6 +1,8 @@
 # StreamPlex: Netflix Dashboard
 Explore and analyze trends in Netflix content consumption.
 
+Click to see the Dashboard: [StreamPlex](https://rpubs.com/lu_nas/StreamPlex)
+
 ![Dashboard](https://github.com/LuthfiNassir/StreamPlex-Netflix_Dashboard/blob/main/Dashboard.png)
 
 ## Key Features:
@@ -15,7 +17,7 @@ Explore and analyze trends in Netflix content consumption.
 ## How to Use:
 - Download the Dataset: Obtain the provided CSV file containing Netflix content data.
 - Download the R Script: Obtain the provided R Markdown file from the repository.
-- Download the CSS file: Obtaini the provided CSS file to get the web design.
+- Download the CSS file: Obtain the provided CSS file to get the web design.
 - Run the Script: Execute the R script in your preferred R environment to launch the StreamPlex dashboard.
 - Upload Data: Load the downloaded CSV file into the dashboard.
 - Exploration: Interact with the dashboard to delve into various aspects of Netflix content trends.

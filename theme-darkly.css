@@ -5,13 +5,13 @@ body {
     font-weight: bold;
 }
 
-/* Dark background color for header and footer */
+/* background color for header and footer */
 .navbar-inverse, .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     background-color: #66BCA3;
     /* border-color: #ffffff; */
 }
 
-/* Set text color for header and footer */
+/* text color for header and footer */
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     color: #ffffff;
     font-weight: bold;
@@ -19,22 +19,22 @@ body {
     
 }
 
-/* Dark background color for sidebar */
+/* background color for sidebar */
 .sidebar {
     background-color: #000000;
 }
 
-/* Set text color for sidebar */
+/* text color for sidebar */
 .sidebar li a {
     color: #fff;
 }
 
-/* Dark background color for content area */
+/* background color for content area */
 .content-wrapper {
     background-color: #454d55;
 }
 
-/* Set text color for content area */
+/*  text color for content area */
 .content-wrapper p, .content-wrapper h1, .content-wrapper h2, .content-wrapper h3, .content-wrapper h4, .content-wrapper h5, .content-wrapper h6 {
     color: #ffffff;
 }
